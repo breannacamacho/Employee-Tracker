@@ -1,9 +1,9 @@
 -- drops database if exists and creates the database with the given name
-DROP DATABASE IF EXISTS employee_tracker_db;
-CREATE DATABASE employee_tracker_db;
+DROP DATABASE IF EXISTS employee_tracker;
+CREATE DATABASE employee_tracker;
 
 -- connects to the database 
-\c employee_tracker_db
+\c employee_tracker
 
 -- creates table for department with id and name columns and primary key
 CREATE TABLE department (

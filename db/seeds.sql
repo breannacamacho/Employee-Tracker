@@ -1,4 +1,4 @@
-\c employee_tracker_db;
+\c employee_tracker;
 
 -- inserts department name to the department table
 INSERT INTO department(name)
@@ -16,12 +16,8 @@ VALUES ('Math Professor', 85000, 1),
 
 -- inserts first_name, last_name, role_id and manager_id to employee table
 INSERT INTO employee(first_name, last_name, role_id, manager_id)
-VALUES ('Ross', 'Geller', 1, 2),
-        ('Phoebe', 'Buffay', 2, 3),
-        ('Chandler', 'Bing', 3, 4),
-        ('Joey', 'Tribiani', 4, 2),
-        ('Rachel', 'Green', 4, 5);
-
-
-
-
+VALUES ('Ada', 'Lovelace', 1, 2),
+       ('Grace', 'Hopper', 2, 3),
+       ('Linus', 'Torvalds', 3, 4),
+       ('Alan', 'Turing', 4, 2),
+       ('Margaret', 'Hamilton', 4, 5);
